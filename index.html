@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Creative Project 2</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+<div class="website-box">
+<div class="customize-box">
+  <h1>Create a custom avatar!</h1>
+  <p>Using <a href="https://avatars.dicebear.com/">DiceBear Avatar</a> you can create an avatar</p>
+  <br>
+  <form class="pure-form>" <fieldset>
+    <p>Enter a name:</p>
+    <input placeholder="name" id="name">
+    <br>
+<br>
+    <p>Choose a type of avatar:</p>
+    <select id="type">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="human">Human</option>
+    </select>
+    <br>
+    <br>
+    <p>Enter a width and height (range between 100 and 600):</p>
+  <input placeholder="width" id="width"> <input placeholder="height" id="height">
+  <br>
+  <br><p>Pick a background color:</p>
+    <select id="color">
+      <option value="white">White</option>
+      <option value="pink">Pink</option>
+      <option value="red">Red</option>
+      <option value="orange">Orange</option>
+      <option value="yellow">Yellow</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+      <option value="indigo">Indigo</option>
+      <option value="purple">Purple</option>
+      <option value="cream">Cream</option>
+      <option value="gray">Gray</option>
+    </select>
+  <br>
+  <br><p>Select a mood:</p>
+      <select id="mood">
+        <option value="happy">Happy</option>
+        <option value="sad">Sad</option>
+        <option value="surprised">Surprised</option>
+      </select>
+    <br>
+    <br>
+    <button id="getButton" class="pure-button pure-button-primary">Click here to make your avatar!</button>
+    </fieldset>
+  </form>
+</div>
+
+<div class="image-box">
+  <img id="avatar" src="https://avatars.dicebear.com/v2/human/john.svg?options[background]=%23ffffff&options[width]=600&options[height]=600&options[mood][]=sad">
+</div>
+
+
+</div>
+<footer>
+  <a href="https://github.com/s-wei-h/creative-project2.git">Link to Github Repository</a>
+</footer>
+<script text="type/javascript" src="/script.js"></script>
+
+</body>
+
+</html>

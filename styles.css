@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css?family=Miriam+Libre&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: lightSeaGreen;
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+p {
+  color: teal;
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#name, #width, #height {
+  background-color: white;
+  border-radius: 5px;
+  width: 25%;
+  height: 20px;
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+#type, #mood, #color {
+  background-color: white;
+  width: 30%;
+  text-align: center;
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+#getButton {
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: mediumTurquoise;
+  font-family: 'Miriam Libre', sans-serif;
+  font-size: 17px;
+}
+
+#getButton:hover {
+  background-color: Teal;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+.website-box {
+  display: flex;
+  padding: 30px 30px;
+  background-color: Ivory;
+}
+
+.customize-box {
+  width: 50%;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.image-box {
+  border: 1px solid black;
+  width: 50%;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 30px;
+  background-color: teal;
+  color: white;
+  text-decoration: none;
+  font-family: 'Miriam Libre', sans-serif;
+}
